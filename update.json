@@ -1,0 +1,34 @@
+{
+  "version": "0.49",
+  "notes": "Nur noch die .exe nötig – blur, FFmpeg und YouTube-Werkzeuge werden beim ersten Start geladen",
+  "files": [
+    {
+      "path": "noir Clips.exe",
+      "url": "https://raw.githubusercontent.com/luuucxas/noir-clips/main/noir-Clips.exe",
+      "sha256": "ab899e78ae8eccd49dc91bed79418d8572fc0d59cc1253b656636aa4222f63c3",
+      "size": 13509632
+    }
+  ],
+  "components": [
+    {
+      "name": "blur",
+      "label": "blur & FFmpeg",
+      "version": "1",
+      "url": "https://github.com/luuucxas/noir-clips/releases/download/komponenten-1/blur.zip",
+      "sha256": "75f0602b9c20473a724b8f6609cdb7088a5ccf02923b6f42e3c38fb354cb51b1",
+      "size": 191088976,
+      "dir": "blur",
+      "check": "blur/lib/ffmpeg/ffmpeg.exe"
+    },
+    {
+      "name": "tools",
+      "label": "YouTube-Werkzeuge",
+      "version": "1",
+      "url": "https://github.com/luuucxas/noir-clips/releases/download/komponenten-1/tools.zip",
+      "sha256": "d165b7519bd3890bfeb233a0e2e8a27536f100cc788f8124688d7eeb86c789f2",
+      "size": 64999004,
+      "dir": "tools",
+      "check": "tools/yt-dlp.exe"
+    }
+  ]
+}
